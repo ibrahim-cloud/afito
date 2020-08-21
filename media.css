@@ -1,0 +1,104 @@
+@media screen and (max-width: 800px) {
+	.show-menu, .hide-menu {
+		display: block;
+	}
+
+	.navbar-top {
+		display: none;
+	}
+
+
+
+	nav ul {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		top: -15px;
+		right: -120%;
+		background: #38ADA9;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		transition: 0.7s;
+	}
+
+	nav ul li  {
+		color: white;
+		padding: 10px 0;
+	}
+
+	nav ul li a {
+		color: white;
+		font-size: 18px;
+		font-weight: bold;
+		text-transform: uppercase;
+
+	}
+
+	nav ul li a:hover {
+ 	color: white;
+ } 
+
+ .prj {
+ 	display: flex;
+ 	flex-direction: column;
+ }
+ .projets {
+  position: relative;
+  width: 100%;
+  height: 379px;
+  
+}
+
+ .actif {
+ 	font-weight: bold;
+ 	color: white;
+
+ }
+
+	.hide-menu {
+		position: absolute;
+		top: 40px;
+		right: 70px;
+		
+	}
+	.show-menu {
+		color: #38ADA9;
+	}
+
+	#chk:checked ~ ul {
+		right: 0;
+	}
+	
+
+
+
+	.overlay-text {
+		padding: 20px;
+		height: auto;
+		width: auto;
+		margin-top: 50px;
+
+	}
+
+	.stay ,.content-ar{
+		width: auto;
+	}
+
+	.pricing-content {
+		margin-top: 20px;
+	}
+
+	.stay {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.stay p {
+		text-align:center;
+		margin: 30px; 
+	}
+
+
+}

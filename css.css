@@ -1,0 +1,80 @@
+/*  */
+
+ .contact-form {
+ 	display: flex;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ 	width: 100%;
+ 	margin: 100px 0;
+ 	
+ }
+
+ 
+.adress {
+	margin-left: 140px;
+}
+
+.adress h2 {
+	font-size: 30px;
+}
+
+ .adress {
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
+ .contactform {
+  
+  background-color: #305858;
+  padding: 20px;
+  width: 100%
+ }
+ label {
+    margin: 0;
+    color: aliceblue;
+    display: block;
+}
+
+
+
+ .cont-form .contactform p {
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
+ 
+
+ input[type=text],input[type=email],textarea {
+	width: 100%;
+    /* padding: 12px 20px; */
+    margin: 8px 0;
+    /* BORDER-BOTTOM: #ffffff 13PX SOLID; */
+    display: inline-block;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.918);
+    BACKGROUND: TRANSPARENT;
+    opacity: 134%;
+    /* border: 1px solid #ccc; */
+	border-radius: 4px;
+	color: white;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #FAB87F;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+ input[type=submit]:hover {
+  background-color: #38ADA9;
+}
+
+.required {
+	color: red;
+}
